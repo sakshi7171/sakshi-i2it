@@ -1,0 +1,1 @@
+[{"id":"35a729ff.d706b6","type":"function","z":"97ca6c56.3fa2e","name":"","func":" if(msg.payload[0].password===global.get('password')){\n    msg.payload='Login Succesfull';\n}\nelse{\n    msg.payload='Login Failed';\n}\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":860,"y":520,"wires":[["a6961375.9a3af"]]}]
